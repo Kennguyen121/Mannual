@@ -1,80 +1,268 @@
 <!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hướng Dẫn Sử Dụng Hệ Thống Quản Lý Đặt Bàn và Gọi Món</title>
-    <link rel="stylesheet" href="../css/mannual.css">
-</head>
-<body>
-    <header>
-        <h1>Hệ Thống Quản Lý Đặt Bàn và Gọi Món</h1>
+<html>
+    <head>
+        <title>Hướng dẫn sử dụng hệ thống quản lý nhà hàng</title>
+        <link rel="stylesheet" href="../css/mannual.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <h1>Hướng dẫn sử dụng hệ thống quản lý nhà hàng</h1>
+        </header>
         <nav>
             <ul>
-                <li><a href="#gioithieu">Giới Thiệu</a></li>
-                <li><a href="#cachsu">Cách Sử Dụng</a></li>
-                <li><a href="#chucnang">Chức Năng Chính</a></li>
+                <li><a href="#chuc-nang-nhan-vien">Chức năng của Nhân viên</a></li>
+                <li><a href="#chuc-nang-quan-ly">Chức năng của Quản lý</a></li>
                 <li><a href="#hoTro">Hỗ Trợ</a></li>
             </ul>
         </nav>
-    </header>
+        <main>
+            <section id="chuc-nang-nhan-vien">
+                <h2>Chức năng của Nhân viên</h2>
+                <ul class="menu">
+                <li><a href="#dat-ban">Đặt bàn</a></li>
+                <li><a href="#quan-ly-ban">Quản lý bàn</a></li>
+                <li><a href="#goi-mon">Gọi món</a></li>
+                <li><a href="#quan-ly-mon">Quản lý món</a></li>
+                <li><a href="#thong-ke">Thống kê</a></li>
+                <li><a href="#tim-kiem">Tìm kiếm</a></li>
+                <li><a href="#quan-ly-khach-hang">Quản lý khách hàng</a></li>
+                </ul>
+            </section>
+            <section id="dat-ban">
+                <h2>Đặt bàn</h2>
+                <img src="../img/Picture1.png" alt="">
+                <h3 style="font-weight: bold;">Tạo đơn đặt bàn</h3>
+                <p>Bước 1: Nhập đầy đủ thông tin phía bên trái (có thể để trống số lượng khách), chọn các bàn để tạo đơn.</p>
+                <p>Bước 2: Chọn nút “Tạo đơn” để lưu đơn. Khi thêm thành công thì sẽ có thông báo.</p>
+                <p> Tuỳ chọn hỗ trợ: Có thể chọn nút “Thiết lập lại” để thiết lập lại giao diện ban đầu</p>
 
-    <main>
-        <section id="gioithieu">
-            <h2>Giới Thiệu</h2>
-            <p>Chào mừng bạn đến với hệ thống quản lý đặt bàn và gọi món của chúng tôi. Hệ thống này giúp bạn quản lý đặt bàn, gọi món và theo dõi đơn hàng một cách dễ dàng và hiệu quả.</p>
-        </section>
+                <h3 style="font-weight: bold;">Cập nhật đơn đặt bàn</h3>
+                <img src="../img/Picture2.png" alt="">
+                <p style="font-weight: bold;">Cập nhật thông tin đơn</p>
+                <p>Bước 1: Từ danh sách, chọn đơn đặt bàn cần thay đổi</p>
+                <p>Bước 2: Thay đổi các thông tin cần thiết và chọn nút “Cập nhật”, sau đó xác nhận để lưu thông tin thay đổi</p>
+                <p style="font-weight: bold;">Xác nhận khách đến</p>
+                <p>Bước 1: Từ danh sách, chọn đơn đặt bàn cần thay đổi</p>
+                <p>Bước 2: Chọn nút “Khách đến” và xác nhận để chuyển trạng thái đơn đặt bàn</p>
+                <p style="font-weight: bold;">Huỷ đơn</p>
+                <p>Bước 1: Từ danh sách, chọn đơn đặt bàn cần thay đổi</p>
+                <p>Bước 2: Chọn nút “Huỷ đơn” và xác nhận huỷ để huỷ đơn đặt bàn</p>
+                <p style="font-weight: bold;">Tuỳ chọn hỗ trợ</p>
+                <p>Thiết lập lại: Chọn nút “Thiết lập lại” để làm mới giao diện</p>
+                <p>Tìm kiếm: Nhập số điện thoại vào ô tìm kiếm và chọn biểu tượng kính lúp để lọc danh sách đơn đặt bàn theo số điện thoại</p>
+                <p>Tải lại danh sách: Chọn nút Toàn bộ danh sách để tải lại toàn bộ danh sách</p>
 
-        <section id="cachsu">
-            <h2>Cách Sử Dụng</h2>
-            <p>Để sử dụng hệ thống, bạn cần thực hiện các bước sau:</p>
-            <ol>
-                <li>Đăng nhập vào hệ thống bằng tài khoản của bạn.</li>
-                <li>Chọn chức năng mà bạn muốn sử dụng từ menu chính.</li>
-                <li>Thực hiện các thao tác theo hướng dẫn trên màn hình.</li>
-            </ol>
-        </section>
+            </section>
+            <section id="quan-ly-ban">
+                <h2>Quản lý bàn</h2>
+                <img src="../img/Picture3.png" alt="">
+                <p style="font-weight: bold;">Thêm bàn mới</p>
+                <p>Bước 1: Nhập đầy đủ thông tin phía bên trái (không nhập mã bàn)</p>
+                <p>Bước 2: Chọn nút “Thêm” để thêm bàn mới. Sau khi thêm thành công, thông tin bàn mới sẽ được thêm vào danh sách bên phải</p>
+                <p style="font-weight: bold;">Cập nhật thông tin bàn</p>
+                <p>Bước 1: Chọn 1 bàn từ danh sách bên phải. Thông tin bàn được chọn sẽ được hiển thị vào form bên trái</p>
+                <p>Bước 2: Thay đổi các thông tin cần thiết của bàn</p>
+                <p>Bước 3: Chọn nút “Cập nhật” để lưu thông tin thay đổi. Sau khi cập nhật thành công sẽ có thông báo và thông tin mới thay đổi được cập nhật vào danh sách.</p>
+                <p style="font-weight: bold;">Tuỳ chọn</p>
+                <p>Thiết lập lại: Chọn nút “Thiết lập lại” để làm mới giao diện</p>
+                <p>Tìm kiếm: Nhập mã bàn vào ô tìm kiếm rồi chọn biểu tượng kính lúp để lọc bàn trong danh sách</p>
+                <p>Tải lại danh sách: Chọn biểu tượng mũi tên xoay tròn ở góc trên bên phải để tải lại toàn bộ danh sách</p>
+                <p> Thêm khu vực mới: Chọn biểu tượng dấu + ở hàng Khu vực. Sau đó nhập tên khu vực vào khung nhập liệu được hiển thị và chọn “Đồng ý” để thêm khu vực mới</p>
+                <img src="../img/Picture4.png" alt="">
+            </section>
+            <section id="goi-mon">
+                <h2>Gọi món</h2>
+                <p style="font-weight:  bold;">Thêm đơn món mới</p>
+                <p>Bước 1: Chọn một bàn trống tại giao diện “Sơ đồ bàn” để tạo đơn gọi món. Nhân viên lọc các bàn theo khu vực bằng cách nhấn vào các nút có tên khu vực tương ứng.</p>
+                <img src="../img/Picture5.png" alt="">
+                <p>Bước 2: Nhấn nút "Tạo đơn gọi món", hệ thống sẽ chuyển sang màn hình gọi món để nhân viên thêm các món ăn vào đơn. Ở giao diện này sẽ hiển thị thông tin về đơn gọi món (mã đơn gọi món, ngày giờ tạo đơn, mã bàn tạo đơn) ở phần bên phải màn hình.</p>
+                <img src="../img/Picture6.png" alt="">
+                <p>Bước 3: Thêm món bằng cách nhấn dấu cộng dưới các món cần thêm. Nhân viên có thể lọc các món theo phân loại bằng cách nhấn các nút có tên phân loại tương ứng.</p>
+                <p style="font-weight: bold;">Lưu ý:</p>
+                <p>Đối với món nước thì cần chọn đầy đủ các phân loại có trong cửa sổ tùy chọn phụ dành cho các món nước và nhập số lượng món cần gọi.</p>
+                <img src="../img/Picture7.png" alt="">
+                <p>Đối với món mì thì cần chọn đầy đủ các phân loại có trong cửa sổ tùy chọn phụ dành cho các món mì và nhập số lượng món cần gọi.</p>
+                <img src="../img/Picture8.png" alt="">
+                <p>Đối với món thuộc phân loại khác mì và nước thì cần nhập số lượng món cần gọi.</p>
+                <img src="../img/Picture9.png" alt="">
+                <p>Bước 4: Nhấn nút thêm sau khi đã nhập đầy đủ thông tin. Món sau khi thêm sẽ hiển thị trong đơn gọi món nằm ở bên phải màn hình</p>
+                <p>Bước 5: Nhấn nút lưu đơn để lưu thông tin đơn gọi món hiện tại.</p>
+                <p>→ Nhân viên sẽ được chuyển lại giao diện “Sơ đồ bàn”. Bàn đã chọn để tạo đơn sẽ chuyển màu từ xanh lá (đang trống) sang màu vàng (đang phục vụ).</p>
 
-        <section id="chucnang">
-            <h2>Chức Năng Chính</h2>
-            <h3>1. Quản Lý Đặt Bàn</h3>
-            <p>Trong phần này, bạn có thể:</p>
-            <ul>
-                <li>Thêm, sửa, xóa thông tin đặt bàn.</li>
-                <li>Xem danh sách các bàn đã đặt.</li>
-                <li>Quản lý thời gian đặt bàn.</li>
-            </ul>
+                <p style="font-weight:  bold;">Sửa thông tin đơn gọi món</p>
+                <img src="../img/Picture10.png" alt="">
+                <p>Bước 1: Chọn bàn cần chỉnh sửa đơn gọi món tại giao diện “Sơ đồ bàn” để thực hiện chính sửa. Nhân viên lọc các bàn theo khu vực bằng cách nhấn vào các nút có tên khu vực tương ứng.</p>
+                <p>Bước 2: Nhấn nút "Chỉnh sửa đơn gọi món", hệ thống sẽ chuyển sang màn hình gọi món để nhân viên chỉnh sửa đơn đã có</p>
+                <img src="../img/Picture11.png" alt="">
+                <p>Bước 3: Tại giao diện này, nhân viên được phép thêm món mới vào đơn, xóa món khỏi đơn bằng cách nhấn nút X màu đỏ ở món cần xóa. Ngoài ra nhân viên sử dụng các nút  tăng giảm để thay đổi số lượng món đã có trong đơn. Nhân viên có thể lọc các món theo phân loại bằng cách nhấn các nút có tên phân loại tương ứng.</p>
+                <p style="font-weight: bold;">Lưu ý:</p>
+                <p>Các nút tăng sẽ biến mất khi số lượng món cần gọi bằng với số lượng tồn của món hiện có trong thực đơn và nút dấu trừ cũng biến mất khi số lượng món trong đơn là 1.</p>
+                <p>Nhân viên có thể chọn nút xóa đơn để xóa đơn gọi món khi cần thiết.</p>
+                <p>Bước 4: Nhấn nút "Lưu đơn" để lưu các chỉnh sửa đã thực hiện cho đơn gọi món.</p>
+                <p>→ Nhân viên sẽ được chuyển lại giao diện “Sơ đồ bàn”. Bàn đã chọn để tạo đơn sẽ chuyển màu từ xanh lá (đang trống) sang màu vàng (đang phục vụ).</p>
 
-            <h3>2. Gọi Món</h3>
-            <p>Chức năng gọi món cho phép bạn:</p>
-            <ul>
-                <li>Chọn món từ thực đơn.</li>
-                <li>Thêm món vào đơn hàng.</li>
-                <li>Xem và chỉnh sửa đơn hàng trước khi xác nhận.</li>
-            </ul>
+                <p style="font-weight:  bold;">Thanh toán cho đơn gọi món</p>
+                <p>Bước 1: Chọn các bàn cần thanh toán tại giao diện “Sơ đồ bàn”</p>
+                <p><b>Lưu ý:</b> Trong trường hợp thanh toán cho nhiều bàn và có nhiều đơn đặt bàn, hãy chọn từng bàn riêng lẻ trong mỗi đơn đặt bàn để tiến hành thanh toán cho từng đơn.</p>
+                <p>Bước 2: Chọn nút thanh toán tại giao diện “Sơ đồ bàn”. Hoặc tại giao diện đơn gọi món nhân viên nhấn nút thanh toán để tiến hành thanh toán nhanh khi không có sự thay đổi trong đơn gọi món. Nhân viên được chuyển qua giao diện “Thanh toán”.</p>
+                <img src="../img/Picture12.png" alt="">
+                <p>Bước 3: Khi giao diện hiển thị, hệ thống sẽ cung cấp thông tin chi tiết về mã hóa đơn thanh toán, thời gian thanh toán, tên và số lượng các món đã gọi, cùng với tổng số tiền của đơn gọi món.</p>
+                <p><b>Lưu ý:</b>Trong trường hợp khách hàng đã đặt bàn trước và thực hiện thanh toán cho bàn đã đặt, hệ thống sẽ hiển thị thêm số tiền cọc đã thanh toán và tên khách hàng để nhân viên có thể hoàn trả tiền cọc cho khách hàng và xử lý thanh toán mà không cần phải tìm kiếm thông tin khách hàng. Nhân viên xem đơn đặt bàn nhanh bằng cách nhấn vào nút kế bên tiền cọc để xem một số thông tin của đơn đặt bàn. Bỏ qua bước 4 và thực hiện bước 5 trong trường hợp này.</p>
+                <p>Bước 4: Tiến hành nhập tên khách hàng để tìm kiếm khách hàng trong hệ thống. Nếu khách hàng chưa có dữ liệu trong hệ thống, nhân viên cần thực hiện thêm khách hàng trước để tiến hành thanh toán. Trong trường hợp khách từ chối cung cấp thông tin thì nhân viên chọn mục “khách vãng lai” để tiếp tục thanh toán.</p>
+                <p>Bước 5: Nhập số tiền khách đưa bằng các nút phím tắt hoặc bằng bàn phím số.</p>
+                <p>Bước 6: Nhấn nút thanh toán sau khi trả lại tiền thừa cho khách (nếu có) để in hóa đơn.</p>
+                <p>Bước 7: Chọn nơi lưu hóa đơn để in. Nếu khách hàng không muốn in hóa đơn thì nhân viên bấm chọn không khi có thông báo “Bạn có muốn in hóa đơn không?”.</p>
+                <p>→ Kết thúc quá trình thanh toán, hệ thống hiển thị lại giao diện “Sơ đồ bàn”. Bàn được thanh toán sẽ tự đổi màu từ màu vàng (đang phục vụ) thành xanh lá (đang trống).</p>
 
-            <h3>3. Theo Dõi Đơn Hàng</h3>
-            <p>Bạn có thể theo dõi trạng thái đơn hàng của mình trong phần này:</p>
-            <ul>
-                <li>Xem danh sách các đơn hàng đã đặt.</li>
-                <li>Kiểm tra trạng thái của từng đơn hàng.</li>
-                <li>Nhận thông báo khi đơn hàng đã sẵn sàng.</li>
-            </ul>
-        </section>
+            </section>
+            <section id="quan-ly-mon">
+                <h2>Quản lý món</h2>
+                <img src="../img/Picture13.png" alt="">
+                <p style="font-weight: bold;">Thêm món mới</p>
+                <p>Bước 1: Nhập đầy đủ thông tin món cần thêm vào các ô nhập liệu, các ô tùy chọn mặc định là phân loại đầu tiên. Khi muốn thêm ảnh thì nhấn nút chọn ảnh và chọn ảnh trong thư mục đã lưu. Ảnh được chọn sẽ hiển thị ở ô màu xám kế nút chọn ảnh. Nếu nút “Thêm món” không hiển thị màu xanh thì cần bấm xóa rỗng trước khi nhập thông tin để thêm món.</p>
+                <p>Bước 2: Chọn nút thêm món sau khi điền đầy đủ thông tin. Khi thêm thành công thì món mới sẽ được hiển thị trong bảng dữ liệu</p>
+                
+                <p style="font-weight: bold;">Sửa thông tin món</p>
+                <p>Bước 1: Trước khi chọn món ở trong bảng. Nút “Cập nhật” sẽ bị vô hiệu hóa. Chọn món đã có từ trong bảng dữ liệu, nút “Cập nhật”  . Lúc này nút “Thêm món” sẽ bị vô hiệu hóa đến khi hoàn thành cập nhật thông tin món.</p>
+                <p>Bước 2: Nhập thông tin cần thay đổi tương ứng trong các ô thông tin.</p>
+                <p>Bước 3: Chọn nút “Cập nhật” để lưu các thông tin đã sửa. Khi sửa thành công thì món mới sẽ được thêm vào bảng.</p>
 
-        <section id="hoTro">
-            <h2>Hỗ Trợ</h2>
-            <p>Nếu bạn gặp bất kỳ vấn đề nào trong quá trình sử dụng, hãy liên hệ với bộ phận hỗ trợ của chúng tôi:</p>
-            <ul>
-                <li>Email: support@restaurantmanagement.com</li>
-                <li>Điện thoại: 1-800-555-0199</li>
-                <li>Chat trực tuyến: Có sẵn trên trang web của chúng tôi</li>
-            </ul>
-        </section>
-    </main>
+                <p style="font-weight: bold;">Lọc danh sách các món theo phân loại</p>
+                <p>Bước 1: Chọn phân loại cần lọc trong ô lựa chọn loại món.</p>
+                <p>Bước 2: Chọn một phân loại món có trong danh sách.</p>
+                <p>Bước 3: Kết quả trả về là bảng dữ liệu gồm các món thuộc phân loại đó.</p>
 
-    <footer>
-        <p>&copy; 2023 Hệ Thống Quản Lý Đặt Bàn và Gọi Món. Tất cả quyền được bảo lưu.</p>
-    </footer>
-</body>
+                <p style="font-weight: bold;">Tìm món</p>
+                <p>Bước 1: Nhập tên món cần tìm vào ô kế nút kính lúp.</p>
+                <p>Bước 2: Nhấn nút tìm có hình kính lúp.</p>
+                <p>Bước 3: Nếu tìm thấy món phù hợp thì hiển thị thông tin món trong bảng. Nếu không tìm thấy hệ thống sẽ thông báo “Không tìm thấy món phù hợp!”.</p>
+
+                <p style="font-weight: bold;">Thêm loại món</p>
+                <p>Bước 1: Tại ô loại món trong form thông tin món, chọn vào mục cuối cùng có tên là “Chỉnh sửa loại món”</p>
+                <p>Bước 2: Một cửa sổ về thông tin các phân loại đã có được hiển thị như sau:</p>
+                <img src="../img/Picture14.png" alt="">
+                <p>Bước 3: Nhập tên loại món cần thêm.</p>
+                <p>Bước 4: Nhấn nút thêm.</p>
+                <p>Bước 5: Phân loại món mới được thêm thành công sẽ hiển thị trong bảng dữ liệu ở cửa sổ “Các phân loại món” và được thêm vào các ô lựa chọn ở cửa sổ “Thực đơn” để sử dụng.</p>
+
+                <p style="font-weight: bold;">Xóa loại món</p>
+                <p>Bước 1: Tại ô loại món trong form thông tin món, chọn vào mục cuối cùng có tên là “Chỉnh sửa loại món”</p>
+                <p>Bước 2: Một cửa sổ về thông tin các phân loại đã có được hiển thị như sau:</p>
+                <img src="../img/Picture15.png" alt="">
+                <p>Bước 3: Chọn loại món cần xóa từ bảng.</p>
+                <p><b>Lưu ý:</b> Trước khi thực hiện xóa, cần đảm bảo không có món nào thuộc loại món này. Nếu vẫn còn món trong loại món, hệ thống sẽ không cho phép xóa.</p>
+                <p>Bước 4: Nhấn nút xóa. Loại món được chọn sẽ bị xóa và không còn hiển thị trong bảng dữ liệu.</p>
+
+                <p style="font-weight: bold;">Thêm thuế mới</p>
+                <p>Bước 1: Tại ô chọn thuế trong form thông tin món, chọn vào mục cuối cùng có tên là “Chỉnh sửa thuế”</p>
+                <p>Bước 2: Một cửa sổ về thông tin các thuế đã có được hiển thị như sau:</p>
+                <img src="../img/Picture16.png" alt="">
+                <p>Bước 3: Nhập tên và giá trị thuế mới cần thêm.</p>
+                <p>Bước 4: Nhấn nút thêm.</p>
+                <p>Bước 5: Thuế mới được thêm thành công sẽ hiển thị trong bảng dữ liệu ở cửa sổ “Thuế” và được thêm vào các ô lựa chọn thuế ở cửa sổ “Thực đơn” để sử dụng.</p>
+
+                <p style="font-weight: bold;">Xóa thuế</p>
+                <p>Bước 1: Tại ô chọn thuế trong form thông tin món, chọn vào mục cuối cùng có tên là “Chỉnh sửa thuế”</p>
+                <p>Bước 2: Một cửa sổ về thông tin các thuế đã có được hiển thị như sau:</p>
+                <img src="../img/Picture17.png" alt="">
+                <p>Bước 3: Chọn thuế cần xóa từ bảng dữ liệu.</p>
+                <p>Lưu ý: Trước khi thực hiện xóa, cần đảm bảo không có món nào áp dụng thuế này. Nếu vẫn còn món được áp dụng thuế, hệ thống sẽ không cho phép xóa.</p>
+                <p>Bước 4: Nhấn nút xóa. Thuế được chọn sẽ bị xóa và không còn hiển thị trong bảng dữ liệu.</p>
+
+            </section>
+            <section id="thong-ke">
+                <h2>Thống kê</h2>
+                <p style="font-weight: bold;">Giao diện thống kê dành cho nhân viên</p>
+                <img src="../img/Picture18.png" alt="">
+                <p>Sẽ tự động hiện thông số và biểu đồ với dữ liệu được lấy trong ngày.</p>
+
+            </section>
+            <section id="tim-kiem">
+                <h2>Tìm kiếm</h2>
+                <p style="font-weight: bold;">Tìm kiếm đơn đặt bàn</p>
+                <img src="../img/Picture19.png" alt="">
+                <p>Bước 1: Nhập từ khoá vào ô tìm kiếm và (hoặc) chọn ngày, tình trạng của đơn đặt bàn (nếu cần)</p>
+                <p>Bước 2: Nhấn nút biểu tượng tìm kiếm</p>
+                <p>Bước 3: Nhấn nút Làm mới dữ liệu tải lại danh sách đơn đặt bàn</p>
+
+                <p style="font-weight: bold;">Tìm kiếm đơn hoàn cọc</p>
+                <img src="../img/Picture20.png" alt="" srcset="">
+                <p>Bước 1: Nhập từ khoá vào ô tìm kiếm và (hoặc) chọn ngày</p>
+                <p>Bước 2: Nhấn nút biểu tượng tìm kiếm</p>
+                <p>Bước 3: Nhấn nút Làm mới dữ liệu tải lại danh sách đơn đặt bàn</p>
+
+                <p style="font-weight: bold;">Tìm kiếm hoá đơn thanh toán</p>
+                <img src="../img/Picture21.png" alt="">
+                <p>Bước 1: Nhập từ khoá vào ô tìm kiếm và (hoặc) chọn ngày</p>
+                <p>Bước 2: Nhấn nút biểu tượng tìm kiếm</p>
+                <p>Bước 3: Nhấn nút Làm mới dữ liệu tải lại danh sách đơn đặt bàn</p>
+
+            </section>
+            <section id="quan-ly-khach-hang">
+                <h2>Quản lý khách hàng</h2>
+                <img src="../img/Picture22.png" alt="">
+                <p style="font-weight: bold;">Thêm khách hàng mới</p>
+                <p>Bước 1: Nhập đầy đủ thông tin gồm: họ tên, số điện thoại và email</p>
+                <p>Bước 2: Nhấn nút thêm</p>
+                <p style="font-weight: bold;">Cập nhật khách hàng</p>
+                <p>Bước 1: Chọn một khách hàng trong danh sách</p>
+                <p>Bước 2: Chỉnh sửa thông tin của khách ở ô tương ứng</p>
+                <p>Bước 3: Nhấn nút cập nhật</p>
+                <p style="font-weight: bold;">Tìm kiếm khách hàng</p>
+                <p>Bước 1: Nhập từ khoá cần tìm như: mã khách hàng, họ tên, số điện thoại, email</p>
+                <p>Bước 2: Nhấn nút biểu tượng tìm kiếm</p>
+                <p>Bước 3: Nhấn nút biểu tượng làm mới danh sách</p>
+            </section>
+            <section id="chuc-nang-quan-ly">
+                <h2>Chức năng của Quản lý</h2>
+                <ul class="menu">
+                <li><a href="#quan-ly-nhan-vien">Quản lý nhân viên</a></li>
+                <li><a href="#thong-ke-quan-ly">Thống kê</a></li>
+                </ul>
+            </section>
+            <section id="quan-ly-nhan-vien">
+                <h2>Quản lý nhân viên</h2>
+                <img src="../img/Picture23.png" alt="">
+                <p style="font-weight: bold;">Thêm nhân viên</p>
+                <p>Bước 1: Nhập đầy đủ thông tin vào form bên trái</p>
+                <p>Bước 2: Chọn nút “Thêm” để lưu thông tin nhân viên mới. Tài khoản của nhân viên sẽ được tạo tự động với tên đang nhập là họ tên nhân viên viết liền không dấu (VD: LeNgocHuong), mật khẩu là ngày tạo nhân viên đó theo định dạng ddMMyyyy (VD: 13122024)</p>
+                
+                <p style="font-weight: bold;">Cập nhật thông tin nhân viên</p>
+                <p>Bước 1: Chọn nhân viên cần cập nhật từ danh sách bên phải</p>
+                <p>Bước 2: Thay đổi các thông tin cần thiết của nhân viên</p>
+                <p>Bước 3: Chọn nút “Cập nhật” để lưu thông tin thay đổi. Sau khi cập nhật thành công sẽ có thông báo.</p>
+
+                <p style="font-weight: bold;">Tuỳ chọn hỗ trợ</p>
+                <p>Thiết lập lại: Chọn nút “Thiết lập lại” để làm mới giao diện</p>
+                <p>Tìm kiếm: Nhập mã nhân viên hoặc tên nhân viên vào ô tìm kiếm rồi chọn biểu tượng kính lúp để lọc nhân viên trong danh sách</p>
+                <p>Tải lại danh sách: Chọn biểu tượng mũi tên xoay tròn ở góc trên bên phải để tải lại toàn bộ danh sách</p>
+
+            </section>
+            <section id="thong-ke-quan-ly">
+                <h2>Thống kê</h2>
+                <p style="font-weight: bold;">Giao diện thống kê dành cho quản lý</p>
+                <img src="../img/Picture24.png" alt="">
+                <p>Bước 1: Chọn ngày bắt đầu và ngày kết thúc để thống kê</p>
+                <p>Bước 2: Bấm nút thống kê để hiện biểu đồ thống kê</p>
+            </section>
+
+            <section id="hoTro">
+                <h2>Hỗ Trợ</h2>
+                <p>Nếu bạn gặp bất kỳ vấn đề nào trong quá trình sử dụng, hãy liên hệ với bộ phận hỗ trợ của chúng tôi:</p>
+                <ul>
+                    <li>Email: support@restaurantmanagement.com</li>
+                    <li>Điện thoại: 1-800-555-0199</li>
+                    <li>Chat trực tuyến: Có sẵn trên trang web của chúng tôi</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Hướng dẫn sử dụng hệ thống quản lý nhà hàng</p>
+        </footer>
+
+        <!-- Your content here -->
+    <button id="back-to-top" title="Back to Top">Top</button>
+    <script src="../script/mannual.js"></script>
+    </body>
 </html>
